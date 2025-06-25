@@ -3,14 +3,14 @@
    "lastname": "Dutta",
    "tagline": "Cloud Computing Engineer",
    "contact": {
-      "email": "samratdutta079@gmail.com",
+      "email": "samratdutta079@gmail",
       "phone": "+91 835-698-2930",
-      "linkedin": "www.linkedin.com/in/samratdutta3597",
-      "github": "github.com/Samrat079",
-      "website": "samrat079.github.io/Portfolio"
+      "linkedin": "samratdutta3597",
+      "github": "Samrat079",
+      "website": "samrat079.github.io"
    },
 
-   "about": "I am a experianced cloud computing engineer with contribution in multiple personal and open source projects. I am a avid enthusiast of home labbing and self hosting, till data i have hosted multiple of my projects and web services on my personal servers with the use of various technologies like Docker, Docker-Compose, k8s, Terraform, nginx, htppd/apache and more. This obsession of me with servers and backend infrastructure has made me into a very efficient backend engineer. I am able to automate entire applications allowing for deployment with a few commands. Due to my self taught skills and the limited hardware avalable i have developed the skill to migrate deployments on the fly being able to switch from supabase to firebase as soon as a new offer is announced. Please find more about my capablities below.",
+   "about": "Experienced Cloud Computing Engineer with a strong background in backend infrastructure, home labbing, and self-hosting. Proficient in tools like Docker, Docker Compose, Kubernetes, Terraform, NGINX, and Apache. Skilled in automating application deployments and managing cloud-native and self-hosted services. Demonstrated adaptability through hands-on experience migrating between platforms (e.g., Supabase to Firebase) under hardware constraints. Passionate about optimizing systems and building efficient, scalable backend solutions.",
    "education": [
       {
          "degree": "B.A.hons",
@@ -27,7 +27,7 @@
             "Deploying and maintaining server infrastructures by using softwares like Terraform.",
             "Implimenting automatic features like container build, run, stop and kill.",
             "Ensuring optimized load balancing reducing stress nodes.",
-            "Configuring amazon linux for maxium performance"
+            "Configuring amazon linux for maximum performance"
          ]
       },
       {
@@ -46,127 +46,77 @@
          "time": "05.2023",
          "details": [
             "Migrating database from firebase to supabase.",
-            "Implimenting maximum compatablity with PostgreSQL to ensure high speed data fetching",
-            "Implimenting high quality auth feature and data hash function."
+            "Implimenting maximum compatablity with PostgreSQL to ensure high speed speed data fetching",
+            "Implimenting high quality auth and data hash function."
          ]
       }
    ],
    "projects": {
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et sagittis eros. Morbi sit amet porta tellus. Donec commodo varius **massa**, eu sagittis velit. Maecenas a orci sit amet lacus porttitor finibus sit amet id lorem. Sed id urna nunc. Nulla laoreet nisi ac tincidunt mattis. ",
+      "details": "Find the links to all my projects by visiting my portfolio at samrat079.github.io/Portfolio/",
       "items": [
          {
-            "name": "my-awesome-project3",
-            "tagline": "[VueJS, Vuetify]",
-            "link": "https://project.link",
-            "details": "Sed a imperdiet erat. Curabitur porttitor ut augue sit amet luctus. Nam molestie, augue ac tempor tristique, neque enim blandit mi, id ultricies erat leo non lectus."
+            "name": "Bashmark",
+            "tagline": "[C++, OpenCL]",
+            "link": "github.com/Samrat079/Bashmark",
+            "details": "Bashmark is a terminal utility which allows for hardware benchmarking to be performed from within the terminal of the system. It uses OpenCL a open source graphics library to undetake GPU benchmarking by performing matrix multiplication. Bashmark is compatable with linux and macOS systems."
          },
          {
-            "name": "my-awesome-project",
-            "tagline": "[Kubernetes, Helm]",
-            "details": "Aliquam ultricies, nulla in convallis iaculis, arcu elit ultricies felis, vitae ullamcorper tortor odio id mauris. Vestibulum non euismod ligula. Duis condimentum condimentum magna, molestie imperdiet tellus finibus vitae."
+            "name": "Fractal Benchmark",
+            "tagline": "[WebGL, expressJS]",
+            "link": "samrat079.github.io/Fractal_Benchmark/",
+            "details": "Fractal Benchmark is a ray marching implimentation of a mandelbulb renderer using webGL, It is able to render a mandelbulb from within the browser. Due to the gpu intensive nature of the render it can be used for system benchmarking. It also comes with UI eliments to help with performing the system checks."
          },
          {
-            "name": "my-awesome-project2",
-            "tagline": "[Python, FastAPI]",
-            "link": "https://project.link",
-            "details": "Pellentesque tempor dolor quam, in rhoncus leo ullamcorper eu. Donec vestibulum sapien metus, dapibus varius felis sollicitudin ac. Suspendisse finibus arcu diam, et lacinia dui fermentum eget. Etiam lacinia risus et tellus maximus, id sagittis odio pharetra. Proin vitae ex lacinia lorem dignissim convallis. Maecenas eu sem vitae tortor tincidunt sodales. Praesent vitae rhoncus mauris, non tincidunt magna. Curabitur finibus vestibulum nisl vitae consequat. Donec sagittis feugiat magna ac lacinia. Vestibulum auctor a nisi eget aliquam. Morbi posuere, orci vel fermentum pellentesque, ligula elit sagittis tellus, sagittis hendrerit leo dui vel nunc."
+            "name": "Stall Speed Calculator",
+            "tagline": "[expressJS]",
+            "link": "samrat079.github.io/stall_speed_calculator/",
+            "details": "Stall speed calculator is a web based calculator which is able to determinal the stalling speed of a aerofoil with the given inputs altitude, Wing Loading and Lift Coefficient. This calculator is far easier to use as it takes away the need for educated guess about the weight and the bank angle calculations by simply replacing them with wing loading which is a much more consistant metric."
          }
       ]
    },
-   "skills2Rows": true,
+   "skills2Rows": false,
    "skills": [
       {
-         "name": "Python",
+         "name": "Docker/kubernetes",
          "level": 4.5
       },
       {
-         "name": "Kubernetes",
+         "name": "Bash/zsh/fish",
+         "level": 5
+      },
+      {
+         "name": "Nginx/Apache",
+         "level": 5
+      },
+      {
+         "name": "Linux (Ubuntu, Amazon Linux/Red Hat)",
          "level": 4
       },
       {
-         "name": "Bash",
-         "level": 4
-      },
-      {
-         "name": "Containers",
+         "name": "AWS (EC2, S3)",
          "level": 4.5
       },
       {
-         "name": "Ansible",
-         "level": 4
-      },
-      {
-         "name": "Linux",
-         "level": 4
-      },
-      {
-         "name": "AWS",
-         "level": 3.5
-      },
-      {
-         "name": "GoLang",
-         "level": 2
-      },
-      {
-         "name": "NixOS",
-         "level": 1
-      },
-      {
-         "name": "CI/CD",
-         "level": 4
+         "name": "DB (Firebase, Superbase, Pocketbase)",
+         "level": 5
       },
       {
          "name": "Git",
-         "level": 3
-      },
-      {
-         "name": "Helm",
-         "level": 3
-      },
-      {
-         "name": "Ruby",
-         "level": 3
-      },
-      {
-         "name": "Ruby On Rails",
          "level": 4
-      },
-      {
-         "name": "VueJS",
-         "level": 4
-      },
-      {
-         "name": "Vagrant",
-         "level": 3.5
       }
    ],
    "languages": [
       {
-         "name": "Polish",
-         "level": "Native"
-      },
-      {
-         "name": "English",
-         "level": "C1"
-      },
-      {
-         "name": "German",
-         "level": "B1"
+         "name": "English"
       }
    ],
-   "courses": [
-      "Lorem Ipsum Workshop (Cloud Native Community)"
-   ],
+
    "interests": [
       {
-         "name": "Kitesurfing",
-         "link": "https://vimeo.com/374277514"
+         "name": "Self Hosting"
       },
       {
-         "name": "Crossfit"
-      },
-      {
-         "name": "Boxing"
+         "name": "Gaming"
       }
    ],
    "numerPages": true
