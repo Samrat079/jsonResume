@@ -55,6 +55,12 @@
       "details": "Find the links to all my projects by visiting my portfolio at samrat079.github.io/Portfolio/",
       "items": [
          {
+            "name": "Abstract Noise",
+            "tagline": "[expressJS, vanilla JavaScript]",
+            "link": "samrat079.github.io/Abstract-Noise/",
+            "details": "Abstract Noise is a vanilla java script implimentation of a 3D simplex noise, the noise color gradient is fully customizable allowing the users to make their own noise gradients."
+         },
+         {
             "name": "Bashmark",
             "tagline": "[C++, OpenCL]",
             "link": "github.com/Samrat079/Bashmark",
